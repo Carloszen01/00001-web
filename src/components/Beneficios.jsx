@@ -62,7 +62,7 @@ const Beneficios = () => {
                         <p
                             type="button"
                             className={`font-poppins font-medium text-[18px]
-                            text-primary text-green-200 outline-none ${styles}`}
+                            text-primary text-white outline-none ${styles}`}
                             onClick={() => setShowLinks(!showLinks)}
                         >
                             {showLinks ? "Ver beneficios" : "Ver estudios"}
