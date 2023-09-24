@@ -27,7 +27,7 @@ const FAQ = () => {
                             <h4 class={`mx-4 font-poppins text-[20px] leading-[32px] text-white ${openQuestion === index ? "text-white" : "text-white dark:text-white"}`}>{faq.title}</h4>
                         </button>
                         <div class={`overflow-hidden transition-all max-h-0 
-                        ${openQuestion === index ? "max-h-[300px]" : "max-h-0"}`}>
+                        ${openQuestion === index ? "max-h-[900px]" : "max-h-0"}`}>
                             <div class="flex mt-6 md:mx-10">
                                 <span class={`border ${openQuestion === index ? "border-green-300" : "border-green-300"}`}></span>
                                 <p class={`${styles.paragraph} max-w-4xl px-4 break`}>
