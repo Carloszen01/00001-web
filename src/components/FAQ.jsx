@@ -16,7 +16,7 @@ const FAQ = () => {
     return (
         <section className={`${styles.paddingX} my-16`}>
             <h2 className='font-poppins font-semibold xs:text-[38px] text-[30px]
-            text-white xs:leading-[56.8px] leading-[46.8px] w-full mb-5 text-center mb-10 lg:mb-20'>
+            text-white xs:leading-[56.8px] leading-[46.8px] w-full mb-5 text-center lg:mb-20'>
                 Preguntas frecuentes
             </h2>
             <div class={`flex-1 mt-8 lg:mx-12 lg:mt-0 pt-5`}>

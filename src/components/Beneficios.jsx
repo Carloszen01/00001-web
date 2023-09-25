@@ -12,13 +12,13 @@ const Beneficios = () => {
                 mt-20 relative pb-28`}
         >
             <h2 className="font-poppins font-semibold xs:text-[38px] text-[30px]
-                text-white xs:leading-[76.8px] leading-[66.8px] w-full text-center mb-4 lg:mb-20">
+                text-white xs:leading-[76.8px] leading-[66.8px] w-full text-center mb-5 lg:mb-20">
                 Tú, pero mejor
             </h2>
             {beneficios.map((stat) => (
                 <div
                     key={stat.id}
-                    className={`flex-1 flex items-center sm:px-10
+                    className={`flex-1 flex items-center md:px-10 justiy-between w-full
                     flex-col px-3 mb-10 min-w-[300px] md:ml-10 ml-0 md:mt-0 mt-10`}
                 >
                     <img src={stat.icon} alt={stat.title} className="pb-7 max-w-[90px]" />
@@ -26,8 +26,8 @@ const Beneficios = () => {
                         pb-2 leading-[32px] text-white">
                         {stat.title}
                     </h4>
-                    <p className="font-poppins font-normal text-[16px]
-                        leading-[24px] text-dimWhite max-w-[400px] text-left">
+                    <p className={`font-poppins font-normal text-[16px]
+                        leading-[24px] text-dimWhite max-w-[400px] text-left`}>
                         {showLinks ? (
                             <>
                                 <a className="font-poppins font-normal text-[16px]
