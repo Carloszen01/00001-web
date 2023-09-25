@@ -19,7 +19,7 @@ const Beneficios = () => {
                 <div
                     key={stat.id}
                     className={`flex-1 flex items-center sm:px-10
-                    flex-col px-2 mb-10 min-w-[300px] md:ml-10 ml-0 md:mt-0 mt-10`}
+                    flex-col px-3 mb-10 min-w-[300px] md:ml-10 ml-0 md:mt-0 mt-10`}
                 >
                     <img src={stat.icon} alt={stat.title} className="pb-7 max-w-[90px]" />
                     <h4 className="font-poppins font-semibold text-[20px]
