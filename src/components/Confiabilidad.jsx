@@ -11,7 +11,7 @@ const FeatureCard = ({ icon, title, content, index }) => (
             </div>
         </div>
 
-        <div className="flex-1 flex flex-col ml-3">
+        <div className="flex-1 flex flex-col">
             <h4 className="font-poppins font-semibold text-white text-[20px] leading-[32px] mb-2">
                 {title}
             </h4>

@@ -5,7 +5,7 @@ import { footerLinks, socialMedia } from "../constants";
 const Footer = () => (
     <section id="contacto" className={`${styles.flexCenter} ${styles.paddingY} ${styles.paddingX} flex-col`}>
         <div className={`${styles.flexStart} flex-col mb-8`}>
-            <div className={`${styles.flexCenter} flex-[1] flex-col mb-10`}>
+            <div className={`${styles.flexCenter} flex-[1] flex-col sm:mb-5`}>
                 <img
                     src={logo}
                     alt="utropix"
