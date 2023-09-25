@@ -33,7 +33,7 @@ const Hero = () => {
                     Cognitivo?
                 </h1>
                 <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-                    ¡Aumenta tu concentración, memoria y estado de ánimo con nootrópicos naturales!
+                    ¡Aumenta tu concentración, memoria y estado de ánimo con Utropix!
                 </p>
             </div>
             <div className={`${styles.flexCenter} flex-1 flex md:my-0 my-10 relative`}>

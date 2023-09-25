@@ -62,7 +62,7 @@ export const beneficios = [
         e2: "Estudio 2",
         e3: "Estudio 3",
         content:
-            "La suplementación con Melena de León ha demostrado reducir la depresión y la ansiedad en estudios clínicos. Además, puede mejorar la calidad del sueño, lo que contribuye a un estado de ánimo más equilibrado y positivo",
+            "La suplementación con Melena de León ha demostrado reducir la depresión y la ansiedad en estudios clínicos. Además, puede mejorar la calidad del sueño, lo que contribuye a un estado de ánimo más equilibrado y positivo.",
     },
     {
         id: "memoria",
@@ -109,7 +109,7 @@ export const consumo = [
         icon: brain,
         title: "Modo de empleo",
         content:
-            "Toma de 1 a 2 cápsulas al día, preferentemente con alimentos. Para obtener un impulso extra, toma una cápsula antes de una actividad física o mentalmente demandante. Para mantener los beneficios a largo plazo, haz pausas de una semana cada 2 o 3 meses.",
+            "Toma de 1 a 2 cápsulas al día, preferentemente con alimentos. Para obtener un impulso extra, toma una cápsula antes de una actividad física o mentalmente demandante.",
 
     },
     {
@@ -159,7 +159,7 @@ export const faq = [
     {
         id: "",
         title: "¿Cómo debo tomarlo?",
-        content: "Toma de 1 a 2 cápsulas al día, preferentemente con alimentos. Para obtener un impulso extra, toma una cápsula antes de una actividad física o mentalmente demandante. Para mantener los beneficios a largo plazo, haz pausas de una semana cada 2 o 3 meses.",
+        content: "Toma de 1 a 2 cápsulas al día, preferentemente con alimentos. Para obtener un impulso extra, toma una cápsula antes de una actividad física o mentalmente demandante.",
     },
 ];
 
