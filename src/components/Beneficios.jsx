@@ -53,7 +53,7 @@ const Beneficios = () => {
                     <div className={`${styles.flexCenter} items-center bg-primary w-[100%] h-[100%] rounded-[10px]`}>
                         <p
                             type="button"
-                            className={`font-poppins font-medium text-[14px] text-primary text-[#C0F6E3] outline-none ${styles}`}
+                            className={`font-poppins font-medium text-[14px] text-primary text-white outline-none ${styles}`}
                             onClick={() => setShowLinks(!showLinks)}
                         >
                             {showLinks ? "Ver beneficios" : "Ver estudios"}

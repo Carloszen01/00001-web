@@ -7,7 +7,7 @@ const FeatureCard = ({ icon, title, content, index }) => (
         <div className="flex flex-1 flex-row mb-2 items-center">
             <div className={`min-w-[44px] min-h-[44px] max-w-[44px] max-h-[44px] rounded-full
             ${styles.flexCenter} bg-dimBlue mr-2`}>
-                <img src={icon} alt="star" className="w-[75%] h-[75%] object-contain" />
+                <img src={icon} alt="star" className="w-[65%] h-[65%] object-contain" />
             </div>
             <h4 className="font-poppins font-semibold text-[20px]
                 leading-[32px] text-white">

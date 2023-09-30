@@ -17,7 +17,13 @@ import {
     dropbox,
     send,
     shield,
-    star
+    star,
+    web_gut,
+    web_health,
+    web_person,
+    web_pill,
+    stars,
+
 } from "../assets";
 
 export const navLinks = [
@@ -77,7 +83,7 @@ export const beneficios = [
     },
     {
         id: "cerebro",
-        icon: brain,
+        icon: web_health,
         title: "Salud cerebral",
         link1: "https://pubmed.ncbi.nlm.nih.gov/37233262/",
         link2: "https://pubmed.ncbi.nlm.nih.gov/18844328/",
@@ -89,7 +95,7 @@ export const beneficios = [
     },
     {
         id: "sistema",
-        icon: happy,
+        icon: web_gut,
         title: "Sistema digestivo",
         link1: "https://pubmed.ncbi.nlm.nih.gov/26314904/",
         link2: "https://www.sciencedirect.com/science/article/pii/S1756464621001870?via%3Dihub",
@@ -106,7 +112,7 @@ export const beneficios = [
 export const consumo = [
     {
         id: "consumo",
-        icon: brain,
+        icon: web_pill,
         title: "Modo de empleo",
         content:
             "Toma de 1 a 2 cápsulas al día, preferentemente con alimentos. Para obtener un impulso extra, toma una cápsula antes de una actividad física o mentalmente demandante.",
@@ -114,7 +120,7 @@ export const consumo = [
     },
     {
         id: "sistema",
-        icon: brain,
+        icon: stars,
         title: "¿Qué cambios notarás en tu mente y cuerpo?",
         content:
             "Al consumir Melena de León, es esencial tener en cuenta que, como con cualquier suplemento, sus efectos no surgen de la noche a la mañana, sino que dependen de la consistencia en su consumo. Experimentarás una mejora gradual en tu rendimiento cognitivo, incluyendo la memoria, el enfoque y el estado de ánimo. Es importante recordar que los efectos pueden variar según la dosis que se tome. La mayoría de personas comienzan a notar cambios a partir de la segunda a cuarta semana de uso.",
@@ -122,7 +128,7 @@ export const consumo = [
     },
     {
         id: "memoria",
-        icon: brain,
+        icon: web_person,
         title: "¿Quién puede tomar Melena de León?",
         content:
             "El hongo Melena de León es un suplemento seguro para la mayoría de las personas, pero no se recomienda durante el embarazo o la lactancia. Además, siempre es aconsejable consultar con tu médico antes de empezar a tomar cualquier suplemento.",

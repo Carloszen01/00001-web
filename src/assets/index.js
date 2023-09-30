@@ -7,7 +7,7 @@ import coinbase from "./coinbase.png";
 import dropbox from "./dropbox.png";
 import logo from "./loogo.png";
 import quotes from "./quotes.svg";
-import robot from "./roboto.png";
+import robot from "./web_robot2.png";
 import send from "./Send.svg";
 import shield from "./Shield.svg";
 import star from "./Star.svg";
@@ -29,9 +29,20 @@ import people03 from "./people03.png";
 import brain from "./web_brain.png";
 import memory from "./web_memory.png";
 import happy from "./web_happy.png";
+import web_gut from "./web_gut.png";
+import web_health from "./web_health1.png";
+import web_pill from "./web_pill.png";
+import web_person from "./web_person.png";
+import stars from "./web_stars.png";
+
 
 
 export {
+  stars,
+  web_person,
+  web_pill,
+  web_health,
+  web_gut,
   brain,
   memory,
   happy,
