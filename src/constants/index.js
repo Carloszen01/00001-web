@@ -149,7 +149,7 @@ export const faq = [
     {
         id: "",
         title: "¿En verdad funciona?",
-        content: "Sí, la Melena de León funciona. Hay una serie de estudios científicos que respaldan los beneficios cognitivos de la melena de león, incluyendo la mejora de la memoria, el enfoque y el estado de ánimo. Sin embargo, es importante tener en cuenta que, como con cualquier suplemento, los efectos de la melena de león no surgen de la noche a la mañana. Se necesita tiempo y constancia para ver resultados. En general, los estudios sugieren que la melena de león es segura y eficaz para mejorar la saud y el rendimiento cognitivo.",
+        content: "Sí, la Melena de León funciona. Hay una serie de estudios científicos que respaldan los beneficios cognitivos de la melena de león, incluyendo la mejora de la memoria, el enfoque y el estado de ánimo. Sin embargo, es importante tener en cuenta que, como con cualquier suplemento, los efectos de la melena de león no surgen de la noche a la mañana. Se necesita tiempo y constancia para ver resultados. En general, los estudios sugieren que la melena de león es segura y eficaz para mejorar la saud y el rendimiento cognitivo. La mayoría de personas comienzan a notar cambios a partir de la segunda a cuarta semana de uso.",
     },
     {
         id: "",
