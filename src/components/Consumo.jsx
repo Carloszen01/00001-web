@@ -20,7 +20,7 @@ const FeatureCard = ({ icon, title, content, index }) => (
 );
 
 const Consumo = () => (
-    <section id="consumo" className={`${layout.section} sm:p-10 p-6 pb-10
+    <section id="consumo" className={`flex flex-col ${styles.paddingY} sm:p-10 p-6 pb-10
     my-2 min-w-[140px] rounded-xl sidebar ${styles.flexCenter} mt-5`}>
         <h2 className="font-poppins font-semibold xs:text-[38px] text-[30px]
         text-white xs:leading-[56.8px] leading-[46.8px] w-full text-center lg:mb-20 mb-5">

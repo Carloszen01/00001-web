@@ -248,10 +248,6 @@ export const footerLinks = [
                 id: "producto",
                 name: "Producto",
             },
-            {
-                id: "contacto",
-                name: "Contacto",
-            },
         ],
     },
 ];
@@ -260,7 +256,7 @@ export const socialMedia = [
     {
         id: "social-media-1",
         icon: whatsapp,
-        link: "https://www.facebook.com/Utropix",
+        link: "https://api.whatsapp.com/send?phone=%2B523325069894&text=%C2%A1Hola!+Quiero+potenciar+mi+mente+con+Utropix+%F0%9F%92%9A%E2%9C%A8",
     },
     {
         id: "social-media-2",
