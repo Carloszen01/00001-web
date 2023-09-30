@@ -20,7 +20,7 @@ const Beneficios = () => {
                         key={stat.id}
                         className={`flex-1 flex-wrap flex items-center
                          flex-col mb-5 md:mb-10 min-w-full sm:min-w-[600px] max-w-[600px]
-                         md:mt-0 mt-5 px-6 sm:px-9 mb-20`}
+                         md:mt-0 mt-5 px-6 sm:px-9 pb-14`}
                     >
                         <img src={stat.icon} alt={stat.title} className="pb-3 max-w-[90px]" />
                         <h4 className="font-poppins font-semibold text-[18px] pb-2 leading-[24px] text-white">
@@ -53,7 +53,7 @@ const Beneficios = () => {
                     <div className={`${styles.flexCenter} items-center bg-primary w-[100%] h-[100%] rounded-[10px]`}>
                         <p
                             type="button"
-                            className={`font-poppins font-medium text-[14px] text-primary text-white outline-none ${styles}`}
+                            className={`font-poppins font-medium text-[14px] text-primary text-green-100 outline-none ${styles}`}
                             onClick={() => setShowLinks(!showLinks)}
                         >
                             {showLinks ? "Ver beneficios" : "Ver estudios"}
