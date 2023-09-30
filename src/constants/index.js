@@ -117,7 +117,7 @@ export const consumo = [
         icon: brain,
         title: "¿Qué cambios notarás en tu mente y cuerpo?",
         content:
-            "Al consumir Melena de León, es esencial tener en cuenta que, como con cualquier suplemento, sus efectos no surgen de la noche a la mañana, sino que dependen de la consistencia en su consumo. Experimentarás una mejora gradual en tu rendimiento cognitivo, incluyendo la memoria, el enfoque y el estado de ánimo. Es importante recordar que los efectos pueden variar según la dosis que se tome.",
+            "Al consumir Melena de León, es esencial tener en cuenta que, como con cualquier suplemento, sus efectos no surgen de la noche a la mañana, sino que dependen de la consistencia en su consumo. Experimentarás una mejora gradual en tu rendimiento cognitivo, incluyendo la memoria, el enfoque y el estado de ánimo. Es importante recordar que los efectos pueden variar según la dosis que se tome. La mayoría de personas comienzan a notar cambios a partir de la segunda a cuarta semana de uso.",
 
     },
     {
@@ -125,7 +125,7 @@ export const consumo = [
         icon: brain,
         title: "¿Quién puede tomar Melena de León?",
         content:
-            "El hongo Melena de León es un suplemento seguro para la mayoría de las personas, pero no se recomienda durante el embarazo o la lactancia. Además, siempre es aconsejable consultar con tu médico antes de empezar a tomar cualquier suplemento.            ",
+            "El hongo Melena de León es un suplemento seguro para la mayoría de las personas, pero no se recomienda durante el embarazo o la lactancia. Además, siempre es aconsejable consultar con tu médico antes de empezar a tomar cualquier suplemento.",
     },
 
 ];
@@ -139,7 +139,7 @@ export const faq = [
     {
         id: "",
         title: "¿Qué efectos puedo notar?",
-        content: "Al consumir Melena de León, es esencial tener en cuenta que, como con cualquier suplemento, sus efectos no surgen de la noche a la mañana, sino que dependen de la consistencia en su consumo. Experimentarás una mejora gradual en tu rendimiento cognitivo, incluyendo la memoria, el enfoque y el estado de ánimo. Es importante recordar que los efectos pueden variar según la dosis que se tome.",
+        content: "Al consumir Melena de León, es esencial tener en cuenta que, como con cualquier suplemento, sus efectos no surgen de la noche a la mañana, sino que dependen de la consistencia en su consumo. Experimentarás una mejora gradual en tu rendimiento cognitivo, incluyendo la memoria, el enfoque y el estado de ánimo. Es importante recordar que los efectos pueden variar según la dosis que se tome. La mayoría de personas comienzan a notar cambios a partir de la segunda a cuarta semana de uso.",
     },
     {
         id: "",

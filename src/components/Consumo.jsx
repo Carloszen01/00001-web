@@ -3,15 +3,19 @@ import styles, { layout } from "../style";
 import Button from "./Button";
 
 const FeatureCard = ({ icon, title, content, index }) => (
-    <div className={`py-3 flex flex-row rounded-[20px] lg:px-5 ${index !== consumo.length - 1 ? "mb-6" : "mb-0"} `}>
-        <div className={`w-[64px] h-[64px] rounded-full ${styles.flexCenter} bg-dimBlue`}>
-            <img src={icon} alt="star" className="w-[65%] h-[65%] object-contain" />
-        </div>
-        <div className="flex-1 flex flex-col ml-3">
+    <div className={`py-3 flex flex-col rounded-[20px] lg:px-5 ${index !== consumo.length - 1 ? "mb-6" : "mb-0"} `}>
+        <div className="flex flex-1 flex-row mb-2 items-center">
+            <div className={`min-w-[44px] min-h-[44px] max-w-[44px] max-h-[44px] rounded-full
+            ${styles.flexCenter} bg-dimBlue mr-2`}>
+                <img src={icon} alt="star" className="w-[75%] h-[75%] object-contain" />
+            </div>
             <h4 className="font-poppins font-semibold text-[20px]
-            pb-1 leading-[32px] text-white">
+                leading-[32px] text-white">
                 {title}
             </h4>
+        </div>
+        <div className="flex-1 flex flex-col ml-3">
+
             <p className={`${styles.paragraph}`}>
                 {content}
             </p>
