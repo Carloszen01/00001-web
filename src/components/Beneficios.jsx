@@ -8,7 +8,7 @@ const Beneficios = () => {
     return (
         <section
             id="beneficios"
-            className={`items-start justify-center flex flex-wrap mt-20 relative pb-28`}
+            className={`items-start justify-center flex flex-wrap mt-16 relative pb-10`}
         >
             <h2 className="font-poppins font-semibold xs:text-[38px] text-[30px]
             text-white xs:leading-[76.8px] leading-[66.8px] w-full text-center mb-5 lg:mb-20">
@@ -48,7 +48,7 @@ const Beneficios = () => {
                     </div>
                 ))}
             </div>
-            <div className="flex justify-center absolute bottom-12 lg:left-0 left-0 lg:right-0 right-0 text-center">
+            <div className="flex justify-center absolute bottom-0 lg:left-0 left-0 lg:right-0 right-0 text-center">
                 <div className={`${styles.flexCenter} mt-6 w-[160px] h-[40px] rounded-[10px] bg-blue-gradient p-[1px] cursor-pointer`}>
                     <div className={`${styles.flexCenter} items-center bg-primary w-[100%] h-[100%] rounded-[10px]`}>
                         <p

@@ -63,11 +63,12 @@ const FAQ = () => {
     );
 
     return (
-        <section className={`${styles.paddingX} my-16`}>
-            <h2 className="font-poppins font-semibold xs:text-[38px] text-[30px] text-white xs:leading-[56.8px] leading-[46.8px] w-full mb-5 text-center lg:mb-20">
+        <section className={`${styles.paddingX} ${styles.marginY}`}>
+            <h2 className="font-poppins font-semibold xs:text-[38px] text-[30px]
+            text-white xs:leading-[56.8px] leading-[46.8px] text-center mb-8 sm:mb-10">
                 Preguntas frecuentes
             </h2>
-            <div className={`flex-1 mt-8 lg:mx-12 lg:mt-0 pt-5`}>
+            <div className={`flex-1 lg:mx-12 lg:mt-0`}>
                 {faq.map((faq, index) => (
                     <FAQItem
                         key={index}
@@ -77,14 +78,20 @@ const FAQ = () => {
                     />
                 ))}
             </div>
-            <div className={`${styles.flexCenter} sm:ml-10 ml-0 sm:mt-0 mt-10`}>
+            <div className={`${styles.flexCenter} mt-0`}>
                 <a href="https://api.whatsapp.com/send?phone=%2B523325069894&text=%C2%A1Hola!+Tengo+algunas+dudas+sobre+Utropix.">
-                    <button
-                        type="button"
-                        className={`mt-6 py-4 px-6 font-poppins font-medium text-[18px] text-primary bg-blue-gradient rounded-[10px] outline-none ${styles}`}
-                    >
-                        Pregúntanos
-                    </button>
+                    <div className="flex justify-center relative botton-0 lg:left-0 left-0 lg:right-0 right-0 text-center">
+                        <div className={`${styles.flexCenter} w-[150px] h-[50px] rounded-[10px] bg-blue-gradient p-[1px] cursor-pointer`}>
+                            <div className={`${styles.flexCenter} items-center bg-primary w-[100%] h-[100%] rounded-[10px]`}>
+                                <p
+                                    type="button"
+                                    className={`font-poppins font-medium text-[18px] text-primary text-white outline-none`}
+                                >
+                                    Pregúntanos
+                                </p>
+                            </div>
+                        </div>
+                    </div>
                 </a>
             </div>
         </section>

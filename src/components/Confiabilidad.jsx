@@ -26,8 +26,8 @@ const FeatureCard = ({ icon, title, content, index }) => (
 );
 
 const Confiabilidad = () => (
-    <section id="producto" className={`${layout.section} sm:p-10 p-6 bg-black-gradient pb-10
-    my-2 min-w-[140px] rounded-xl sidebar items-start`}>
+    <section id="producto" className={`${layout.section} ${styles.paddingX} ${styles.marginY} bg-black-gradient
+    min-w-[140px] rounded-xl sidebar items-start`}>
         <div className={`${layout.sectionInfo}`}>
             <h2 className='font-poppins font-semibold xs:text-[38px] text-[30px]
             text-white xs:leading-[56.8px] leading-[46.8px] w-full mb-5'>
@@ -43,9 +43,9 @@ const Confiabilidad = () => (
             {features.map((feature, index) => (
                 <FeatureCard key={feature.id} {...feature} index={index} />
             ))}
-            <div className={`${styles.flexCenter} sm:ml-10 ml-0 sm:mt-0 mt-10`}>
-                <Button styles={`mt-0 sm:mt-10`} />
-            </div>
+            {/*             <div className={`${styles.flexCenter} sm:ml-10 ml-0 sm:mt-0 mt-10`}>
+               <Button styles={`mt-0 sm:mt-10`} /> 
+            </div> */}
         </div>
     </section>
 );

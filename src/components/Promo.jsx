@@ -3,23 +3,21 @@ import { test, test2 } from '../assets'
 
 const Promo = () => {
     return (
-        <div className='w-full ss:px-0 mb-10 flex flex-col justify-center'>
+        <div className={`w-full flex flex-col justify-center ${styles.marginY}`}>
             <div className='flex justify-center'>
-                <img className='ss:flex hidden justify-center items-center max-w-[1100px]' src={test} alt="promoción $299" />
-                <img className='ss:hidden flex flex justify-center items-center' src={test2} alt="romoción $299" />
+                <img className='z-[100] ss:flex hidden justify-center items-center w-full max-w-[900px]' src={test} alt="promoción $299" />
+                <img className='z-[100] ss:hidden flex flex justify-center items-center' src={test2} alt="romoción $299" />
             </div>
             <div className="flex justify-center relative botton-0 lg:left-0 left-0 lg:right-0 right-0 text-center">
-                <div className={`${styles.flexCenter} mt-6 w-[200px] h-[50px] rounded-[10px] bg-blue-gradient p-[1px] cursor-pointer`}>
-                    <div className={`${styles.flexCenter} items-center bg-primary w-[100%] h-[100%] rounded-[10px]`}>
-                        <p
-                            type="button"
-                            className={`font-poppins font-medium text-[18px] text-primary text-white outline-none`}
-                        >
-                            Prueba Utropix
-                        </p>
-                    </div>
-                </div>
+                <a href="https://api.whatsapp.com/send?phone=%2B523325069894&text=%C2%A1Hola!+Quiero+potenciar+mi+mente+con+Utropix+%F0%9F%92%9A%E2%9C%A8">
+                    <button type="button" className={`py-4 px-6 font-poppins font-medium text-[18px] text-primary bg-blue-gradient rounded-[10px] outline-none ${styles}`}>
+                        Prueba Utropix
+                    </button>
+                </a>
             </div>
+            <div className="absolute z-[0] w-[20%] h-[20%] right-[50%] rounded-full green__gradient bottom-18" />
+            <div className="absolute z-[0] w-[10%] h-[10%] right-[50%] rounded-full white__gradient bottom-18" />
+            <div className="absolute z-[0] w-[20%] h-[30%] left-[60%] rounded-full blue__gradient bottom-08" />
         </div>
     )
 }

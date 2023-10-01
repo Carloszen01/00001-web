@@ -1,5 +1,5 @@
 import airbnb from "./airbnb.png";
-import lions from "./lions.png";
+import lions from "./lions2.png";
 import bill from "./bill.png";
 import binance from "./binance.png";
 import card from "./card.png";
@@ -7,7 +7,7 @@ import coinbase from "./coinbase.png";
 import dropbox from "./dropbox.png";
 import logo from "./loogo.png";
 import quotes from "./quotes.svg";
-import robot from "./web_robot2.png";
+import robot from "./web_robot22.png";
 import send from "./Send.svg";
 import shield from "./Shield.svg";
 import star from "./Star.svg";
@@ -34,8 +34,8 @@ import web_health from "./brain2.png";
 import web_pill from "./web_pill.png";
 import web_person from "./web_person.png";
 import stars from "./web_stars.png";
-import test from "./test.png";
-import test2 from "./test2.png";
+import test from "./promo1.png";
+import test2 from "./promo2.png";
 
 
 export {
