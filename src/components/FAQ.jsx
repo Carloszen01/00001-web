@@ -65,7 +65,7 @@ const FAQ = () => {
     return (
         <section className={`${styles.paddingX} ${styles.marginY}`}>
             <h2 className="font-poppins font-semibold xs:text-[38px] text-[30px]
-            text-white xs:leading-[56.8px] leading-[46.8px] text-center mb-8 sm:mb-10">
+            text-white xs:leading-[56.8px] leading-[46.8px] text-center mb-10">
                 Preguntas frecuentes
             </h2>
             <div className={`flex-1 lg:mx-12 lg:mt-0`}>
