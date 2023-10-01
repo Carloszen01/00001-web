@@ -1,6 +1,6 @@
 import styles from './style';
 
-import { Beneficios, Confiabilidad, FAQ, Testimonios, CTA, Footer, Navbar, Hero, Stats, Consumo } from './components/inddex';
+import { Beneficios, Confiabilidad, FAQ, Testimonios, CTA, Footer, Navbar, Hero, Stats, Consumo, Promo } from './components/inddex';
 
 const App = () => (
   <div className='bg-primary w-full overflow-hidden'>
@@ -22,6 +22,7 @@ const App = () => (
         <Confiabilidad />
         <Consumo />
         <FAQ />
+        <Promo />
         <CTA />
         <Footer />
       </div>

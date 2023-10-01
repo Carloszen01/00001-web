@@ -11,12 +11,10 @@ import Testimonios from "./Testimonios";
 import Button from "./Button";
 import FeedbackCard from "./FeedbackCard";
 import Consumo from "./Consumo";
-
-
-
-
+import Promo from "./Promo"
 
 export {
+    Promo,
     Hero,
     GetStarted,
     Stats,

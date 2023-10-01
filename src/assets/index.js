@@ -30,14 +30,17 @@ import brain from "./web_brain.png";
 import memory from "./web_memory.png";
 import happy from "./web_happy.png";
 import web_gut from "./web_gut.png";
-import web_health from "./web_health1.png";
+import web_health from "./brain2.png";
 import web_pill from "./web_pill.png";
 import web_person from "./web_person.png";
 import stars from "./web_stars.png";
-
+import test from "./test.png";
+import test2 from "./test2.png";
 
 
 export {
+  test,
+  test2,
   stars,
   web_person,
   web_pill,
