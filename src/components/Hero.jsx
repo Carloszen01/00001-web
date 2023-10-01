@@ -11,7 +11,7 @@ const Hero = () => {
                 >
                     <img src={discount} alt="descuento" className='w-[32px] h-[32px]' />
                     <p className={`${styles.paragraph} ml-2 leading-[26px]`}>
-                        <span className='text-white'>15%</span> De Descuento En Tu {" "}
+                        <span className='text-white'>10%</span> De Descuento En Tu {" "}
                         <span className='text-white'>Primera</span> Compra
                     </p>
                 </div>

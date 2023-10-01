@@ -6,7 +6,7 @@ const CTA = () => (
         <div className="flex-1 flex flex-col">
             <h2 className={styles.heading2}>Rinde al máximo con Utropix!</h2>
             <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-                Prueba Utropix y obtén un 15% de descuento en tu primera compra.
+                Prueba Utropix y obtén un 10% de descuento en tu primera compra.
             </p>
         </div>
 
