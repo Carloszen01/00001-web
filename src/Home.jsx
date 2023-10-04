@@ -1,6 +1,10 @@
 import styles from './style';
+import ReactPixel from 'react-facebook-pixel'
 
 import { Beneficios, Confiabilidad, FAQ, Testimonios, CTA, Footer, Navbar, Hero, Stats, Consumo, Promo } from './components/inddex';
+
+ReactPixel.init('858411422659360', {}, { debug: false, autoConfig: true });
+ReactPixel.pageView();
 
 const Home = () => (
   <div className='bg-primary w-full overflow-hidden'>
@@ -27,7 +31,6 @@ const Home = () => (
         <Footer />
       </div>
     </div>
-
   </div>
 )
 
