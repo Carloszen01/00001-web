@@ -1,9 +1,25 @@
 import styles from '../style';
 import { arrowUp } from '../assets';
 
+import ReactPixel from 'react-facebook-pixel'
+
+ReactPixel.init('858411422659360', {}, { debug: false, autoConfig: true });
+ReactPixel.pageView();
+
 const GetStarted = () => {
     return (
-        <a href="https://api.whatsapp.com/send?phone=%2B523325069894&text=%C2%A1Hola!+Quiero+potenciar+mi+mente+con+Utropix+%F0%9F%92%9A%E2%9C%A8">
+        <a
+            onClick={() =>
+                ReactPixel.track('ViewContent', {
+                    content_name: 'Botón Hero',
+                    content_category: 'Utropix',
+                    content_ids: ['1'],
+                    content_type: 'product',
+                    value: 0.5,
+                    currency: 'USD',
+                })
+            }
+            href="https://api.whatsapp.com/send?phone=%2B523325069894&text=%C2%A1Hola!+Quiero+potenciar+mi+mente+con+Utropix+%F0%9F%92%9A%E2%9C%A8">
             <div className={`${styles.flexCenter} w-[145px] h-[145px] rounded-full bg-blue-gradient p-[2px]
         cursor-pointer`}>
                 <div className={`${styles.flexCenter} flex-col bg-primary w-[100%] h-[100%] rounded-full`}>

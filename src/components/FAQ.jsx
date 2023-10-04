@@ -2,6 +2,11 @@ import React, { useState, useCallback } from "react";
 import styles from "../style";
 import { faq } from "../constants";
 
+import ReactPixel from 'react-facebook-pixel'
+
+ReactPixel.init('858411422659360', {}, { debug: false, autoConfig: true });
+ReactPixel.pageView();
+
 const FAQItem = ({ faq, isOpen, toggleQuestion }) => {
     const { title, content } = faq;
 
@@ -79,7 +84,17 @@ const FAQ = () => {
                 ))}
             </div>
             <div className={`${styles.flexCenter} mt-0`}>
-                <a href="https://api.whatsapp.com/send?phone=%2B523325069894&text=%C2%A1Hola!+Tengo+algunas+dudas+sobre+Utropix.">
+                <a
+                    onClick={() =>
+                        ReactPixel.track('ViewContent', {
+                            content_name: 'Botón FAQ',
+                            content_category: 'Utropix',
+                            content_ids: ['1'],
+                            content_type: 'product',
+                            value: 299,
+                            currency: 'MXN',
+                        })}
+                    href="https://api.whatsapp.com/send?phone=%2B523325069894&text=%C2%A1Hola!+Tengo+algunas+dudas+sobre+Utropix.">
                     <div className="flex justify-center relative botton-0 lg:left-0 left-0 lg:right-0 right-0 text-center">
                         <div className={`${styles.flexCenter} w-[150px] h-[50px] rounded-[10px] bg-blue-gradient p-[1px] cursor-pointer`}>
                             <div className={`${styles.flexCenter} items-center bg-primary w-[100%] h-[100%] rounded-[10px]`}>
