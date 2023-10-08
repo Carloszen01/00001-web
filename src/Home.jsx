@@ -1,11 +1,18 @@
 import styles from './style';
 import ReactPixel from 'react-facebook-pixel'
 import { Helmet, HelmetProvider } from 'react-helmet-async';
+import TagManager from 'react-gtm-module'
 
 import { Beneficios, Confiabilidad, FAQ, Testimonios, CTA, Footer, Navbar, Hero, Stats, Consumo, Promo } from './components/inddex';
 
 ReactPixel.init('858411422659360', {}, { debug: false, autoConfig: true });
 ReactPixel.pageView();
+
+const tagManagerArgs = {
+  gtmId: 'G-ZRSF58FHQK'
+}
+
+TagManager.initialize(tagManagerArgs)
 
 const Home = () => (
   <HelmetProvider>
