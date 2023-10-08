@@ -9,7 +9,7 @@ ReactPixel.init('858411422659360', {}, { debug: false, autoConfig: true });
 ReactPixel.pageView();
 
 const tagManagerArgs = {
-  gtmId: 'G-ZRSF58FHQK'
+  gtmId: 'GTM-NJH4QQNT'
 }
 
 TagManager.initialize(tagManagerArgs)
