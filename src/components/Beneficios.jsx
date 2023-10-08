@@ -48,7 +48,7 @@ const Beneficios = () => {
                     </div>
                 ))}
             </div>
-            <div className="flex justify-center absolute bottom-0 lg:left-0 left-0 lg:right-0 right-0 text-center">
+            <div className="flex justify-center absolute bottom-0 lg:left-0 left-0 lg:right-0 right-0 text-center Beneficios_button">
                 <div className={`${styles.flexCenter} mt-6 w-[160px] h-[40px] rounded-[10px] bg-blue-gradient p-[1px] cursor-pointer`}>
                     <div className={`${styles.flexCenter} items-center bg-primary w-[100%] h-[100%] rounded-[10px]`}>
                         <p

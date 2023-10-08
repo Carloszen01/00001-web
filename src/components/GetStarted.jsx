@@ -9,6 +9,7 @@ ReactPixel.pageView();
 const GetStarted = () => {
     return (
         <a
+            className='Hero_button'
             onClick={() =>
                 ReactPixel.track('ViewContent', {
                     content_name: 'Botón Hero',
