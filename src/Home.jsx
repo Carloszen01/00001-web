@@ -12,7 +12,6 @@ const tagManagerArgs = {
   gtmId: 'G-ZRSF58FHQK'
 }
 
-TagManager.initialize(tagManagerArgs)
 
 const Home = () => (
   <HelmetProvider>
