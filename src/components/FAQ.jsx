@@ -85,7 +85,7 @@ const FAQ = () => {
             </div>
             <div className={`${styles.flexCenter} mt-0`}>
                 <a
-                    className="CTA_button"
+                    className="FAQ_button"
                     onClick={() =>
                         ReactPixel.track('ViewContent', {
                             content_name: 'Botón FAQ',
