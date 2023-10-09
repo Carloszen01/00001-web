@@ -57,7 +57,7 @@ export const beneficios = [
         e2: "Estudio 2",
         e3: "Estudio 3",
         content:
-            "La Melena de León contiene compuestos que estimulan la producción de pro-BDNF, una proteína clave para la protección, supervivencia, crecimiento y plasticidad neuronal. El pro-BDNF ayuda a proteger las neuronas de la muerte celular, promueve el crecimiento de nuevas neuronas y mejora la plasticidad sináptica. Estos cambios en la función neuronal se han relacionado con una mejora de la memoria y la concentración."
+            "La Melena de León contiene compuestos que estimulan la producción de pro-BDNF, una proteína que ayuda a proteger las neuronas y promover la plasticidad neuronal. Esto se traduce en una mejora de la memoria y la concentración."
     },
     {
         id: "animo",
