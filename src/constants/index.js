@@ -52,10 +52,12 @@ export const beneficios = [
         title: "Concentración",
         link1: "https://pubmed.ncbi.nlm.nih.gov/30934760/",
         link2: "https://pubmed.ncbi.nlm.nih.gov/31118969/",
+        link3: "https://pubmed.ncbi.nlm.nih.gov/36660878/",
         e1: "Estudio 1",
         e2: "Estudio 2",
+        e3: "Estudio 3",
         content:
-            "La Melena de León aumenta los niveles de pro-BDNF, una proteína clave para el crecimiento y reparación de las neuronas. Esto se traduce en un aumento de la neurogénesis, la producción de nuevas neuronas. Estas neuronas adicionales mejoran la memoria, el aprendizaje y la capacidad de atención."
+            "La Melena de León contiene compuestos que estimulan la producción de pro-BDNF, una proteína clave para la protección, supervivencia, crecimiento y plasticidad neuronal. El pro-BDNF ayuda a proteger las neuronas de la muerte celular, promueve el crecimiento de nuevas neuronas y mejora la plasticidad sináptica. Estos cambios en la función neuronal se han relacionado con una mejora de la memoria y la concentración."
     },
     {
         id: "animo",
@@ -76,10 +78,12 @@ export const beneficios = [
         title: "Memoria",
         link1: "https://pubmed.ncbi.nlm.nih.gov/30934760/",
         link2: "https://pubmed.ncbi.nlm.nih.gov/31413233/",
+        link3: "https://pubmed.ncbi.nlm.nih.gov/36660878/",
         e1: "Estudio 1",
         e2: "Estudio 2",
+        e3: "Estudio 3",
         content:
-            "¿Deseas mejorar tu memoria? La suplementación con Melena de León ha demostrado mejoras significativas en este aspecto. Sus compuestos estimulan el crecimiento de nuevas neuronas en el hipocampo, la región cerebral responsable de la memoria y el aprendizaje.",
+            "¿Deseas mejorar tu memoria? La suplementación con Melena de León ha demostrado mejoras significativas en este aspecto. Sus compuestos estimulan la función del hipocampo, la región cerebral responsable de la memoria y el aprendizaje."
     },
     {
         id: "cerebro",
@@ -87,11 +91,12 @@ export const beneficios = [
         title: "Salud cerebral",
         link1: "https://pubmed.ncbi.nlm.nih.gov/37233262/",
         link2: "https://pubmed.ncbi.nlm.nih.gov/18844328/",
-        link3: "",
+        link3: "https://pubmed.ncbi.nlm.nih.gov/36660878/",
         e1: "Estudio 1",
         e2: "Estudio 2",
+        e3: "Estudio 3",
         content:
-            "Los compuestos activos de la Melena de León ayudan a proteger las neuronas del daño oxidativo y la inflamación, factores clave en enfermedades neurodegenerativas. Además, estimulan la producción de nuevas neuronas, lo que puede reducir el riesgo de enfermedades como el Alzheimer, el Parkinson y la esclerosis múltiple, y mejorar la función cognitiva en personas con deterioro cognitivo leve.",
+            "Los compuestos activos de la Melena de León ayudan a proteger las neuronas del daño oxidativo y la inflamación, factores clave en enfermedades neurodegenerativas. Además, pueden reducir el riesgo de enfermedades como el Alzheimer, el Parkinson y la esclerosis múltiple, y mejorar la función cognitiva en personas con deterioro cognitivo leve."
     },
     {
         id: "sistema",
