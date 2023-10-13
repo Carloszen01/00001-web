@@ -1,5 +1,5 @@
 import airbnb from "./airbnb.png";
-import lions from "./lions2.png";
+import lions from "./lions2.webp";
 import bill from "./bill.png";
 import binance from "./binance.png";
 import card from "./card.png";
