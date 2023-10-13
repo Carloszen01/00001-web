@@ -52,9 +52,9 @@ const Hero = () => {
             </div>
             <div className={`${styles.flexCenter} flex-1 flex md:my-0 my-10 relative`}>
                 {imagenCargada ? (
-                    <img src={robot} alt="frasco utropix" className='w-[100%] h-[100%] relative z-[5]' />
+                    <img src={robot} alt="frasco utropix" className='w-[100%] h-[100%] relative z-[5] max-w-[1000px]' />
                 ) : (
-                    <div></div>
+                    <div className='text-white'></div>
                 )}
 
                 {/* gradient start */}
