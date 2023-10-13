@@ -34,8 +34,8 @@ import web_health from "./brain2.png";
 import web_pill from "./web_pill.png";
 import web_person from "./web_person.png";
 import stars from "./web_stars.png";
-import test from "./promo1.png";
-import test2 from "./promo2.png";
+import test from "./promo1.webp";
+import test2 from "./promo2.webp";
 
 
 export {
